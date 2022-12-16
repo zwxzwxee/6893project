@@ -1,0 +1,27 @@
+body {
+  background: black !important;
+  display: grid;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.carousel-item img {
+  width: 450px !important;
+  height: 600px;
+  border-radius: 10px !important;
+  box-shadow: 10px !important;
+}
+
+.carousel-inner {
+  display: grid;
+  justify-content: center;
+  border-radius: 10px !important;
+}
+
+.carousel-indicators {
+  bottom: 20px !important;
+}
+
+.title {
+  color: rgb(245, 197, 24);
+}
